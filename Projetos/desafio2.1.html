@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ot-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de responsividade</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        :root{
+            --cor1:rgb(37, 0, 139);
+            --font-padrao:arial,helvetica,sans-serif;
+        }
+        body{
+            background-color: rgb(46, 111, 119);
+            
+        }
+        main{
+            background-color: white;
+            color: var(--cor1);
+            font-family: var(--font-padrao);
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+            
+        }
+        img{
+            width: 100%;
+
+        }
+
+        main p{
+            color: rgba(0, 0, 0, 0.671);
+        }
+        header{
+            background-color: rgb(0, 0, 255);
+         
+        }
+        header  h1, p{
+            text-align: center;
+        }
+       
+        
+        header a{
+            color: rgb(178, 215, 247);
+            padding-left:11px;
+        }
+        main > h1{
+            text-align: center;
+            padding-bottom: 2px;
+            text-decoration: underline;
+        }
+        main a {
+            padding:3px 3px;
+        }
+        #naruto:hover{
+          border:4px solid black;
+       
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Bom dia </h1>
+        <p>Siga os links abaixo</p>
+        <nav>
+            <a id="naruto" href="">Naruto</a>
+            <a id="sasuke" href="">Sasuke</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Teste de responsividade</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, quibusdam ipsa. Eius animi hic commodi tenetur cumque autem illum voluptate excepturi quibusdam quasi, dolorem obcaecati, sapiente voluptas nostrum perferendis nihil!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam necessitatibus eaque molestiae qui maxime consequatur illum eveniet, iste iusto. Illum, quo. Odit soluta esse provident ex natus atque! Aliquam, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui ipsum accusantium molestias ad natus omnis veritatis quidem cupiditate consequatur sed, delectus voluptatem, et at, aspernatur tempora neque magni debitis ab.
+        </p>
+        <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+        <picture><img src="imagens/irina-blok.jpg"alt=""></picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab assumenda saepe cumque quidem ipsam! Repudiandae sit iste quod odio maxime obcaecati saepe ea velit rem quas quae, eius esse quisquam.</p><br>
+        <nav>
+            <a href="https://pt-br.facebook.com
+            "> facebook</a>
+            <a href="https://www.youtube.com/">yotube</a>
+        </nav>
+        <section>
+            <article>
+
+            </article>
+        </section>
+</body>
+</html>
