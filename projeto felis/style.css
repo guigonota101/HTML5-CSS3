@@ -102,27 +102,50 @@ div.ceumain p {
 
 .textmain {
   width: 45%;
+  padding-top: 160px;
   align-items: center;
   text-align: center;
+  padding-left: 200px;
 
 
 
 }
 
-.textmain p {
-  margin-top: 207px;
-  font-size: 30px;
+
+.textmain h1 {
+
+padding-top: 20px;
+padding-right: 175px;
+font-family: 'Selna';
+font-style: normal;
+font-weight: 400;
+font-size: 52.844px;
+line-height: 80px;  
+display: flex;
+  
 }
 
-div.textmain a {
+div.textmaina a {
   color: black;
-  margin-top: 40px;
+  font-family: 'Proxima Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 20.1783px;
+line-height: 25px;
+  
+}
+div.textmaina{
+  align-items: center;
+  margin-top: 20px;
+  padding-right:200px;
 }
 
 div.topcenter {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 
 }
 
@@ -155,7 +178,7 @@ div.fundomain {
 
 #fotosP {
   width: 200px;
-  height: 200px;
+  height: 266px;
 }
 
 div.bottom-main {
@@ -197,18 +220,12 @@ div.bottom-main span {
 }
 
 
-
 div.imagem3 {
 
   text-align: center;
   align-items: center;
 }
 
-div.imagem3 img {
-  width: 200px;
-  height: 200px;
-
-}
 
 div.imagem3 p {
   font-family: 'Helvetica';
@@ -234,6 +251,8 @@ div.imagem3 span {
 div.trisal {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 80px;
+  padding-top: 80px;
 
 }
 
@@ -261,6 +280,7 @@ div .trisal img {
   width: 200px;
   height: 300px;
 
+
 }
 
 div .trisalfoto2 {
@@ -271,6 +291,7 @@ div.aboutcorpo {
   display: flex;
   margin-top: 65px;
   margin-right: 13px;
+  padding-top: 80px;
 }
 
 div.aboutfoto p {
@@ -279,15 +300,19 @@ div.aboutfoto p {
 
 div.aboutfoto img {
   width: 340px;
+  height: 400px;
   border-radius: 299px 299px 0px 0px;
 }
 
 div.aboutus {
   padding: 0px 30px;
+
 }
 
 div.aboutfoto {
-  padding-right: 36px
+  padding-right: 36px;
+  height: 400px;
+
 }
 
 div.aboutus h1 {
@@ -327,12 +352,127 @@ div.aboutus a {
   color: #1D1B19;
 
 }
+div.mainfinalfoto{
+  padding-bottom: 50px;
+}
+
+div.mainfinal h1 {
+  text-align: center;
+  font-family: 'Selna';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 85px;
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+div.mainfinal2 h1 {
+  text-align: center;
+  font-family: 'Selna';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 85px;
+  padding-bottom: 35px;
+  padding-top: 80px;
+}
+
+div.mainfinalfoto {
+  text-align: center;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+div.mainfinalfoto img {
+  text-align: center;
+  height: 400px;
+} 
+div.imput{
+  padding: 90px 90px;
+  text-align: center;
+}
+input{
+
+    border-block-start-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-color: black;
+    
+}
+button{
+  background: none;
+  border-top: none;
+    border-right: none;
+    border-left: none;
+}
+div.imput p{
+  margin-left: 395px;
+  
+}
+div.imput span{
+  padding-left: 45px;
+}
+footer{
+  padding-top:20px;
+}
+
+div.footerd {
+  display: flex;
+  
+}
+
+div.footerd h1 {
+  font-family: 'selna';
+  padding-left: 30px;
+}
+
+div.tabelafooter {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  padding-left: 210px;
+
+}
+
+div.tabelafooter>ul {
+  font-family: 'Helvetica';
+  columns: 2;
+}
+
+div.tabela2 {
+  font-family: 'helvetica';
+  display: flex;
+  padding-left: 20px;
+  padding-bottom: 180px;
+}
+
+div.tabelafooter ul {
+  list-style: none;
+}
+div.baaka p{
+  font-family: 'selna';
+  padding-left: 30px;
+  padding-bottom:15px;
+}
+img{
+  width: auto;
+}
 
 
 @media screen and (max-width: 1032px) {
 
-  div.aboutcorpo p {
+  div.aboutcorpo {
     font-size: 15px;
+  }
+  div.ceumain{
+    font-size: 30px;
+  }
+
+}
+@media screen and (min-width: 300px) {
+  #culher {
+    font-size: larger;
   }
 
 }

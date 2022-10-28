@@ -1,18 +1,161 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <style>
+ * {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{ 
+    --color-claro:rgb(153, 152, 152);
+    --color-escuro:darkslategrey;
+}
+
+header{
+    background-color: var(--color-claro);
+}
+div.home{
+    display: flex;
+    flex-direction: column;
+    text-align: center; 
+    padding-bottom: 20px;  
+}
+div.home h1{
+     padding-bottom: 10px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+}
+div.home a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    transition-duration: .3s;
+    border-radius: 5px;
+    font-size: 20px;
+    
+
+}
+
+div.home a:hover {
+    background-color: rgb(22, 21, 21);
+    padding: 5px;}
+
+
+body{
+background-color: var(--color-escuro);
+}
+main{
+    background-color: rgb(255, 255, 255);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.sobrenos > h2, p{
+    padding: 10px 0px;
+
+}
+
+div.assuntos > h2, p{
+    padding: 10px  0px 10px 0px;
+
+}
+div.assuntos p{
+    padding-bottom: 25px;
+}
+div.lista{
+    padding-bottom: 20px;
+}
+div.lista li {
+    list-style: none;
+    text-decoration: underline;
+    font-size: 30px;
+    
+}
+img{
+    width: 100%;
+}
+
+
+
+
+footer {
+
+background-color: slategray;
+text-align: center;
+text-decoration: underline;
+margin-top: 30px;
+}
+
+footer:hover {
+background-image: url('https://media.tenor.com/sWsqhP50KdQAAAAC/rgb-rainbow.gif');
+box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.411);
+border-radius: 5px;
+
+}
 
     </style>
 </head>
+
 <body>
     <header>
-        <h1>Bem vindo a página de ajuda</h1>
-        <p></p>
+        <div class="home">
+            <h1>HOME</h1>
+            <nav>
+                <a href="games.html">Página inicial</a>
+            </nav>
+        </div>
     </header>
+    <main>
+        <div class="mainprincipal">
+            <div class="sobrenos">
+                <h2>Quem nós somos ?</h2>
+                <p>Somos um grupos de pessoas que está focando em passar informações para nossos acessores!</p>
+            </div>
+            <div class="assuntos">
+                <h2>Sobre que nós falamos ?</h2>
+                <p>Nossos príncipais assuntos é </p>
+                
+            </div>
+            <div class="lista">
+                <ul>
+                    <li>Jogos</li>
+                    <br>
+                    <li>Filmes</li>
+                    <br>
+                    <li>Animes</li>
+                    <br>    
+                    <li>Automovéis</li>
+                </ul>
+            </div>
+            <div class="inf">
+                <p>Se quiser que tenha mais assuntos , na página principal tem nossa rede social!</p>
+            </div>
+            <div class="imagem">
+                <img src="https://jornaldeitu.com.br/wp-content/uploads/2021/09/159e57cf5094f6a0d699cd2c6beb9b9b.jpg" alt="">
+            </div>
+        </div>
+    </main>
+    <footer >
+        <h1>Desenvolvido por guizin.DEV</h1>
+    </footer>
 </body>
+
 </html>
