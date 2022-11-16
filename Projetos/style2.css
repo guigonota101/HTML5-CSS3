@@ -80,14 +80,18 @@ main p {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 article h1, p, h2{
     padding: 20px 0px 10px 0px;
 }
 
 article img {
     width: 100%;
+  
+}   
 
-}
+
 
 aside {
     background-color: darkgrey;

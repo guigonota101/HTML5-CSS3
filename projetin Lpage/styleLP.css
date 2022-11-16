@@ -10,6 +10,7 @@
 body {
   font-size: 100%;
   background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+ 
 }
 header.cabecalho{
     display: flex;
@@ -31,6 +32,9 @@ header.cabecalho{
   color: #FFF2E7;
   font-weight: 400;
   font-size: 18px
+}
+.cabecalho-menu-item:hover{
+    color:rgb(145, 138, 129);
 }
 .conteudo{
     margin-bottom: 48px;
@@ -76,6 +80,7 @@ color: #2F2325;
   }
 .conteudo-principal-imagem{
     height: 430px;
+  
 }
 .conteudo-secundario{
     display: flex;
